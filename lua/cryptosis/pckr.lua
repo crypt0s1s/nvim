@@ -31,11 +31,12 @@ require('pckr').add {
         requires = { 'nvim-lua/plenary.nvim' }
     };
 
-    {
-        'rose-pine/neovim',
-        as = 'rose-pine',
-        run = vim.cmd('colorscheme rose-pine')
-    };
+     {
+         'rose-pine/neovim',
+         as = 'rose-pine',
+     };
+
+
 
     {
         'nvim-treesitter/nvim-treesitter',
